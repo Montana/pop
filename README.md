@@ -17,7 +17,7 @@ I've coded this so by using the page object model we can make non-brittle test c
 
 To try on your own machine 
 
-    git clone www.github.com/montana/poppy
+    git clone www.github.com/montana/pop
     git stash pop 
 
 By Montana Mendy
