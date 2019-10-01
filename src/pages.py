@@ -155,6 +155,3 @@ class HomePage(Page):
         self.find_element(*self.locator.RESTURANT_LIST).click()
         wait = WebDriverWait(driver, 10, poll_frequency=1, ignored_exceptions=[ElementNotVisibleException, ElementNotSelectableException])  # type: WebDriverWait
         element = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@class='dropdown-item'])[1]")))
-
-
-
