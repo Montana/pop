@@ -89,4 +89,3 @@ class TestPages(unittest.TestCase):
 if __name__ == "__main__":
     suite = unittest.TestLoader().loadTestsFromTestCase(TestPages)
     unittest.TextTestRunner(verbosity=2).run(suite)
-
